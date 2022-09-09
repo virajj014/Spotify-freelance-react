@@ -1,0 +1,31 @@
+.signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+
+.signin img {
+    width: 50%;
+    margin-bottom: 40px;
+}
+
+.signin button {
+    margin-top: 50px;
+    text-transform: inherit !important;
+    background-color: #1db954 !important;
+    color: white;
+    padding: 20px;
+    border-radius: 50px;
+    font-size: 20px;
+    /* font-weight: 600; */
+}
+
+.signin button a {
+    text-decoration: none;
+    color: white;
+}

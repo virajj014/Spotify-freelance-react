@@ -1,0 +1,106 @@
+.Body1 {
+    background: linear-gradient(#333333, #000000);
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    margin-left: 250px;
+    padding: 10px;
+}
+
+.body-in {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.body-in img {
+    height: 200px;
+    width: 200px;
+    /* border-radius: 50%; */
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px rgb(71, 71, 71);
+}
+
+.body-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.body-description h1 {
+    font-size: 20px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.body-description h2 {
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.body-description p {
+    font-size: 18px;
+    /* margin-top: 20px; */
+}
+
+
+.body-songs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #00000059;
+    padding: 10px;
+    border-radius: 10px;
+    /* min-height: 100vh; */
+
+}
+
+.body-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.songrow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.songrow:hover {
+    background-color: #00000059;
+}
+
+.songrow-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.songrow-left img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.songrow-info h1 {
+    font-size: 17px;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.songrow-info p {
+    font-size: 14px;
+    margin-top: 0;
+    font-weight: 300;
+}
